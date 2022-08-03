@@ -1,0 +1,47 @@
+p{
+    background-color: maroon;
+    color:azure;
+    font: larger;
+    margin:1cm;
+   border:solid thick gray;
+   padding: 3cm;
+   
+}
+h1{
+    color:black;
+    text-align: center;
+
+}
+.important{
+    background-color:black ;
+    color:blueviolet;
+}
+#p3{
+    background-color:black ;
+    color:blanchedalmond;
+}
+p[align='center']{
+    padding-left:10cm;
+}
+input[type="button"]{
+    width:2cm;
+    height:3cm;
+    background-color:maroon ;
+    color:white;
+}
+
+input[type="submit"]{
+    float: right;
+    color:red;  
+}
+form{
+    padding-left: 10cm;
+    padding-top:0cm;
+    padding-right:2cm;
+    padding-bottom: 2cm;
+}
+table{
+    background-color: brown;
+}
+
+

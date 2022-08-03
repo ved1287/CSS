@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../style.css" rel="stylesheet">
+</head>
+
+<body bgcolor="Lightskyblue">
+    <h1>Employee Registration Form</h1>
+    <form>
+        <table>
+            <tr>
+                <td class="name"><b>Name of Employee</b></td>
+                
+                <td><input type="text" name="empName" placeholder="Employee Name"></td><br>
+            </tr>
+            <tr>
+                <td>
+                    Department
+                </td>
+                <td>
+                    <input type="text" name="department" placeholder="Enter Department"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    E-mail
+                </td>
+                
+                <td>
+                    <input type="email" name="email" placeholder="Enter your E-mail"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gender
+                </td>
+                <td>
+                    <input type="radio" name="gender" value="M"><label>Male</label>
+                    <input type="radio" name="gender" value="F"><label>Female</label><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Date of Birth
+                </td>
+                <td>
+                    <input type="date" name="doj"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Phone No.
+                </td>
+                <td>
+                <input type="phoneNumber" name="phonenumber" placeholder="Enter your Phone Number"> </td><br>
+            </tr>
+            <tr>
+                <td>
+                    Educational Qualification
+                </td>
+                <td>
+                    <select>
+                        <option value="Course">Course</option>
+                        <option value="B.tech">B.tech</option>
+                        <option value="MBA">MBA</option>
+                        <option value="MCA">MCA</option>
+                    </select><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Favourite News Paper
+                </td>
+                <td>
+                    <select name="fav_newspaper">
+                        <option value="5">News Paper</option>
+                        <option value="1">The Hindu</option>
+                        <option value="2">Times of india </option>
+                        <option value="4">National Herald</option>
+                                </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Resume
+                </td>
+                <td>
+                    <input type="file" name="resume"><br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Preferred Location
+                </td>
+                <td>
+                    <input type="checkbox" name="check">Pune
+                    <input type="checkbox" name="Goa">Goa
+                    <input type="checkbox" name="Banglore">Banglore
+                    <input type="checkbox" name="Hyderabad">Hyderabad
+
+
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Address
+                </td>
+                <td>
+                    <textarea rows="5" cols="80"  placeholder="Enter your Address">  </textarea><br>
+                </td>
+            </tr>
+            <tr>
+               
+                <td>
+                    <input type="submit" name="submit">
+                   
+                </td>
+            </tr>
+        </table>
+
+       
+    </form>
+</body>
+</html>
